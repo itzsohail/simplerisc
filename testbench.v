@@ -3,7 +3,7 @@
 module testbench;
     reg clk;
     reg rst;
-    topmodule uut (clk,rst );
+top_module uut (clk,rst );
     initial
      begin
         clk = 0;
